@@ -70,7 +70,7 @@ $(document).ready(function () {
                     $('.msg').removeClass('none').text('Форма успешно отправленна');
                 },
                 error: function (xhr, ajaxOptions, thrownError) {
-                    $('.msg').removeClass('none').text('Ошибка: ' + xhr.status + ' ' + thrownError  + ' (запрос не отправлен)');
+                    $('.msg').removeClass('none').text('Ошибка: ' + xhr.status + ' ' + thrownError);
                 },
 
             });
