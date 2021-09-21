@@ -31,7 +31,7 @@
                 </div>
         </form>
     </div>
-    <p class="msg none">Lorem ipsum dolor sit amet.</p>
+    <p class="msg none"></p>
     <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
