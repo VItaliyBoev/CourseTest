@@ -66,7 +66,6 @@ $(document).ready(function () {
                     email: email,
                 },
                 success: function (data) {
-                    console.log(data);
                     $('.msg').removeClass('none').text('Форма успешно отправленна');
                 },
                 error: function (xhr, ajaxOptions, thrownError) {
